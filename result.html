@@ -1,0 +1,10 @@
+<html>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+
+    <body>
+        <span> {{ pred }} </span>
+        <br>
+        <button><a href="{{ url_for('index') }}">GO BACK</a></button>
+    </body>
+</html>
